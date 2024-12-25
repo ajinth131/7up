@@ -1,0 +1,172 @@
+/* header section */
+.header{
+display: flex;
+flex-direction: row;
+background-color:rgb(244, 152, 110) ;
+height: 120px;
+border-bottom: 2px solid white;
+}
+
+
+/* 7up logo */
+.logo{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 90px;
+}
+
+/* 3 heads */
+.PRODUCTS{
+    width: 10%;
+    position: relative;
+    top: 50px;
+    font-size: 22px;
+    font-family:Korolev;
+    color: white;
+    cursor: pointer;
+}
+.up_div{
+width: 59%;
+}
+.RECIPES,.STORES{
+    width: 8%;
+    position: relative;
+    top: 50px;
+    font-size: 22px;
+    font-family:Korolev;
+    color: white;
+    cursor: pointer;
+}
+.icons_div{
+width: 15%;
+color: white;
+font-size: 22px;
+position: relative;
+top: 50px;
+cursor: pointer;
+}
+/* frist page */
+.frist_page{
+    width: 100%;
+}
+.frist_page_photo{
+    width: 100%;
+}
+.SEASONS_SWEETINGS{
+    font-size: 5.5vw;
+    position: absolute;
+    top: 210px;
+    font-weight: 900;
+    left: 100px;
+    color: white;
+    width: 530px;
+}
+/* button */
+.See_Recipes{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    width: 200px;
+    padding: 10px 29px;
+    border-radius: 30px;
+    border: 0;
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+.second_page_image{
+width: 100%;
+position: relative;
+margin-top: -4px;
+}
+.third_page_image{
+    width: 100%;
+position: relative;
+margin-top: -4px;
+}
+
+.inner_para{
+    position: absolute;
+    top: 1200px;
+    left: 410px;
+    width: 45%;
+    text-align: center;
+    background-color:rgba(10, 91, 43, 0.8);;
+    border-radius: 100px;
+    color: white;
+   
+    padding: 10px 0px 43px 0px;
+}
+.p_one,.third_p_one{
+    font-size: 16px;
+}
+.b_one,.third_b_one{
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 30px;
+    width: 180px;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.third_inner_para{
+    position: absolute;
+    left: 410px;
+    width: 45%;
+    top: 1850px;
+    text-align: center;
+    background-color:rgba(10, 91, 43, 0.8);;
+    border-radius: 100px;
+    color: white;
+    padding: 10px 0px 43px 0px;
+  
+}
+.footer{
+  
+    width: 100%;
+    position: relative;
+    background-color: rgb(66, 70, 81);
+    margin-top: -20px;
+    height: 130px;
+}
+.footer_div ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+   font-weight: 400;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration:none;
+    transition: all;
+}
+.footer_div li{
+margin: 20px;
+font-size: 12px;
+}
+.last_line{
+position: relative;
+color: white;
+
+    left: 550px;
+    font-size: 11px;
+    width: 500px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* max-height: 1000px; */
+   
+    /* overflow-y: hidden; */
+    background-color: red;
+
+}
+
+    
